@@ -1,6 +1,5 @@
 import streamlit as st
 import qrcode
-from PIL import Image
 import io
 
 def generate_qr_code(url):
@@ -37,7 +36,7 @@ def main():
             img_byte_arr = img_byte_arr.getvalue()
 
             # Display QR code
-            st.image(img_byte_arr, caption='Generated QR Code')
+            st.image(img_byte_arr, caption=f'QR Code for: {url}')
             
             # Download button
             st.download_button(
