@@ -23,8 +23,8 @@ A streamlined web application that converts URLs into downloadable QR codes. Bui
 Clone the repository:
 
 ```powershell
-git clone
-cd ""
+git clone https://github.com/Rafiqdevhub/URL-To-Qrcode-Generator.git
+cd "URL-To-Qrcode-Generator"
 ```
 
 ## Usage
